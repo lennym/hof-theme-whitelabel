@@ -1,0 +1,11 @@
+{{<layout}}
+  {{$pagecontent}}
+    <p>{{{content.message}}}</p>
+    <a href="/" class="button" role="button">{{#t}}buttons.start-again{{/t}}</a>
+    {{#showStack}}
+      <pre>
+        {{error.stack}}
+      </pre>
+    {{/showStack}}
+  {{/pagecontent}}
+{{/layout}}
