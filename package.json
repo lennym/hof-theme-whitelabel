@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lennym/hof-theme-whitelabel/issues"
   },
-  "homepage": "https://github.com/lennym/hof-theme-whitelabel#readme"
+  "homepage": "https://github.com/lennym/hof-theme-whitelabel#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "hof-template-partials": "^3.2.0"
+  }
 }

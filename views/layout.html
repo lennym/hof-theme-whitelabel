@@ -1,10 +1,13 @@
 <!doctype html>
 <html>
   <head>
-  <title>HOF WHITELABEL THEME</title>
+    <title>{{title}}</title>
+    {{>partials-head}}
   </head>
   <body>
-  <h1>{{#t}}pages.intro{{/t}}</h1>
-  {{$page-content}}{{/page-content}}
+  <div class="navbar">
+    <span class="navbar-brand">{{#t}}app.name{{/t}}</span>
+  </div>
+  {{>partials-maincontent-left}}
   </body>
 </html>
