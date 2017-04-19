@@ -20,6 +20,7 @@
   "homepage": "https://github.com/lennym/hof-theme-whitelabel#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "hof-template-partials": "^3.2.0"
+    "hof-template-partials": "^3.5.0",
+    "lodash": "^4.17.4"
   }
 }
