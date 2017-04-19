@@ -1,6 +1,6 @@
 {
   "name": "hof-theme-whitelabel",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "browser": "./browser/index.js",
